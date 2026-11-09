@@ -1,0 +1,33 @@
+[project]
+name = "deep-vision-nets"
+version = "0.1.0"
+description = "ORL Vision Nets"
+readme = "README.md"
+authors = [
+    { name = "Matt Gomez", email = "matthewgomezm10@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.1.0",
+    "huggingface-hub>=2.4.0",
+    "numpy>=2.5.4",
+    "onnx>=1.23.2",
+    "onnxruntime>=1.31.1",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.1.1",
+    "pillow>=13.0.0",
+    "safetensors>=0.8.0",
+    "timm>=1.0.31",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "transformers>=5.22.2",
+    "wandb>=0.31.0",
+]
+
+[project.scripts]
+deep-vision-nets = "deep_vision_nets:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

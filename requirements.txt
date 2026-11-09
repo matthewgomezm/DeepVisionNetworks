@@ -1,0 +1,20 @@
+torch
+torchvision
+
+# Pretrained models
+timm
+transformers
+huggingface_hub
+safetensors
+accelerate
+
+datasets
+pillow
+opencv-python
+numpy
+pandas
+
+wandb
+
+onnx
+onnxruntime
